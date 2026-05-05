@@ -1,7 +1,8 @@
+import Navbar from "./components/Navbar.jsx";
 const GetTitle = () => {
     return (
         <div>
-            <h1>Hello Anime</h1>
+            <Navbar title="WatchAnime" genre="genre" />
         </div>
     );
 };
